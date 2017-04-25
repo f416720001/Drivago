@@ -872,7 +872,7 @@ box-masonry
 }
 /* navbar */
 .navbar {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", 'Noto Sans CJK TC', 'Noto Sans TC',  Helvetica, Arial, sans-serif;
   min-height: 80px;
   margin-bottom: 0;
   border-top: none;
@@ -1097,7 +1097,7 @@ box-masonry
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", 'Noto Sans CJK TC', 'Noto Sans TC', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -1154,7 +1154,7 @@ hr {
 /* buttons  */
 .btn {
   font-weight: 400;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", 'Noto Sans CJK TC', 'Noto Sans TC',  Helvetica, Arial, sans-serif;
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.55;
@@ -1231,7 +1231,7 @@ fieldset[disabled] .btn-ghost.active {
 }
 /* labels */
 .label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", 'Noto Sans CJK TC', 'Noto Sans TC',  Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
