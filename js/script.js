@@ -1,6 +1,7 @@
 
 masonry();
 $(function () {
+    masonry();
     offCanvas();
 });
 
