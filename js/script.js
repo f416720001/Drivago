@@ -15,9 +15,7 @@ function masonry() {
         itemSelector: ".masonry-item"
     });
 
-    $grid.imagesLoaded().progress(function () {
-        $grid.masonry('layout');
-    });
+
 }
 
 /* =========================================
