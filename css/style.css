@@ -16,16 +16,16 @@ html,
   margin-top: 30px;
 }
 .margin-top--big {
-  margin-top: 60px !important;
+  margin-top: 60px;
 }
 .margin-bottom {
   margin-bottom: 30px;
 }
 .margin-bottom--big {
-  margin-bottom: 60px !important;
+  margin-bottom: 60px;
 }
 .margin-bottom--zero {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 .no-padding-top {
   padding-top: 0;
@@ -38,13 +38,13 @@ html,
   padding-bottom: 30px;
 }
 .weight-300 {
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 .weight-500 {
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 .weight-700 {
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 .text-gray {
   color: #555555;
@@ -57,7 +57,7 @@ html,
 }
 @media (max-width: 991px) {
   .text-center-mobile {
-    text-align: center !important;
+    text-align: center;
   }
 }
 a,
@@ -71,7 +71,7 @@ button i.fa {
   margin: 0 5px;
 }
 .clickable {
-  cursor: pointer !important;
+  cursor: pointer;
 }
 .required {
   color: #ef5285;
@@ -114,6 +114,25 @@ button i.fa {
   border-color: #feee7d;
   color: #feee7d;
 }
+
+/* --------------------------------------
+   Thumbnail
+   -------------------------------------- */
+
+  #myThumbnail {
+    text-align: center;
+    margin: 0;
+  }
+
+  #myThumbnail img {
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: black;
+    box-shadow: 1px 1px 2px #111010;
+  }
+
+
+
 /*
 
 =====================
@@ -389,12 +408,12 @@ COPYRIGHT
 }
 @media (max-width: 991px) {
   .copyright p.credit {
-    text-align: center !important;
+    text-align: center;
   }
 }
 @media (max-width: 991px) {
   .copyright {
-    text-align: center !important;
+    text-align: center;
   }
 }
 
@@ -885,10 +904,10 @@ box-masonry
     box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
+    display: block;
+    height: auto;
     padding-bottom: 0;
-    overflow: visible !important;
+    overflow: visible;
   }
   .navbar-collapse.in {
     overflow-y: visible;
@@ -937,7 +956,7 @@ box-masonry
   }
 }
 .navbar-toggle {
-  padding: 9px 10px !important;
+  padding: 9px 10px;
   margin-right: 15px;
   border-radius: 0;
 }
@@ -1263,7 +1282,7 @@ label {
 /* responsive utilities */
 @media (max-width: 767px) {
   .text-center-xs {
-    text-align: center !important;
+    text-align: center;
   }
   .text-center-xs img {
     display: block;
@@ -1273,7 +1292,7 @@ label {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .text-center-sm {
-    text-align: center !important;
+    text-align: center;
   }
   .text-center-sm img {
     display: block;
