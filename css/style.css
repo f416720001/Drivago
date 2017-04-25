@@ -131,7 +131,24 @@ button i.fa {
     box-shadow: 1px 1px 2px #111010;
   }
 
+  /*
 
+  =====================
+  LOGO
+  =====================
+
+  */
+.logo-y {
+  color: #ec971f;
+}
+
+.logo-r {
+  color: #c9302c;
+}
+
+.logo-b {
+  color: #31b0d5;
+}
 
 /*
 
