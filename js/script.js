@@ -1,7 +1,6 @@
 
 masonry();
 $(function () {
-    masonry();
     offCanvas();
 });
 
@@ -9,14 +8,16 @@ $(function () {
  *  masonry
  *  =======================================*/
 
-function masonry() {
+ function masonry() {
 
-    var $grid = $('.grid').masonry({
-        itemSelector: ".masonry-item"
-    });
+     var $grid = $('.grid').masonry({
+         itemSelector: ".masonry-item"
+     });
 
-
-}
+     $grid.imagesLoaded().progress(function () {
+         $grid.masonry('layout');
+     });
+ }
 
 /* =========================================
  *  Off-canvas menu
